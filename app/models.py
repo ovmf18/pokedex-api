@@ -49,8 +49,10 @@ class Personagem:
         tipos = [TIPOS_EM_PORTUGUES.get(t, t) for t in self.tipos]
         if len(tipos) > 1:
             texto_tipos = ", ".join(tipos[:-1]) + " e " + tipos[-1]
-        else:
+        elif tipos:
             texto_tipos = tipos[0]
+        else:
+            texto_tipos = "desconhecido"
 
         # 1 hg = 0,1 kg; o formato "g" omite o ",0" de pesos inteiros.
         peso_kg = f"{self.peso / 10:g}".replace(".", ",")
