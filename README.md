@@ -2,6 +2,8 @@
 
 API REST em Python com [FastAPI](https://fastapi.tiangolo.com/) que consome a [PokéAPI](https://pokeapi.co/) e devolve os dados de um Pokémon (nome, altura, peso e tipos) em um JSON simples.
 
+> Projeto desenvolvido durante o desafio [#7DaysOfCode](https://7daysofcode.io/) da Alura.
+
 ```http
 GET /personagens/pikachu
 ```
@@ -85,6 +87,10 @@ app/
 tests/
 └── test_personagens.py
 ```
+
+## Sobre o desafio
+
+A ideia deste projeto veio do [#7DaysOfCode](https://7daysofcode.io/) da [Alura](https://www.alura.com.br/), na edição **Claude Code (Vibe Coding com Claude Code)**. Durante 7 dias recebi um desafio por dia, e cada etapa deste repositório nasceu de um deles: da estrutura inicial do projeto e do consumo da PokéAPI até a API com FastAPI, o tratamento de erros e os testes com pytest.
 
 ## Créditos
 
