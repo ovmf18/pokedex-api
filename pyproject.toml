@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# Permite "from app.main import app" nos testes sem instalar o projeto.
+pythonpath = ["."]

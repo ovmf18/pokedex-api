@@ -19,3 +19,12 @@ A API fica disponível em http://127.0.0.1:8000 e a documentação interativa em
 |---|---|---|
 | GET | `/` | Mensagem de boas-vindas |
 | GET | `/personagens/{nome}` | Nome, altura, peso e tipos do Pokémon (404 se não existir) |
+
+## Testes
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
+Os testes consultam a PokéAPI de verdade, então precisam de internet.

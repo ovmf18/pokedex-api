@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==9.1.1
+# Usado pelo TestClient do FastAPI.
+httpx2==2.13.1
